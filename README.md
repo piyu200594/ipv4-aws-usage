@@ -22,6 +22,10 @@ ipv4_addresses.csv: Lists all the public IPv4 addresses of instances across all 
 
 elastic_ips.csv: Lists all the EIPs, whether they're associated with an instance (Used) or not (Unused).
 
+Please do not forget to change this line of code to your S3 bucket name:
+
+```bucket_name = "YOUR_S3_BUCKET_NAME"  # Change this to your S3 bucket name```
+
 # Notes:
 
 Make sure you've set up AWS credentials to access the necessary resources.
