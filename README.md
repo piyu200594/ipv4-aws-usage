@@ -3,7 +3,10 @@
 # ipv4-local.py
 
 This Script will generate the CSV file locally in your cloudshell
-Ensure you have boto3 installed via pip: pip install boto3.
+Ensure you have boto3 installed via pip: 
+
+```pip install boto3```
+
 You need to have set AWS credentials.
 This script fetches public IPv4 addresses (Elastic IPs) across all regions. If there are no IPs for a region, that region simply won't appear in the CSV.
 Always be cautious with the output, as it can contain sensitive information.
