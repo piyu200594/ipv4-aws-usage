@@ -19,6 +19,7 @@ You can directly run this python file in your AWS Cloud Shell.
 This script will produce two CSV files and move it to a S3 bucket:
 
 ipv4_addresses.csv: Lists all the public IPv4 addresses of instances across all regions.
+
 elastic_ips.csv: Lists all the EIPs, whether they're associated with an instance (Used) or not (Unused).
 
 # Notes:
